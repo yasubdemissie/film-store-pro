@@ -1,0 +1,190 @@
+/* HTML tag elements */
+body {
+    background-color: black;
+    text-align: center;
+    
+}
+main {
+    margin: 5% 1%;
+}
+h1 {
+    font-family: 'Rubik Puddles', cursive;
+    font-weight: bolder;
+    color: cadetblue;
+}
+h2, h3, h4, h5, h6 {
+    color: cadetblue;
+    font-family: 'Bebas Neue', sans-serif;
+}
+/* navigation bar */
+.home-icon {
+    color: rgb(107, 105, 100);
+    font-size: 70%;
+    margin: 0 3%;
+}
+.navbar {
+    background-color: rgba(94, 90, 90, 0.861);
+}
+.navbar-brand {
+    font-family: 'Rubik Wet Paint', cursive;
+    font-weight: 100;
+    font-size: 35px;
+    color: #f5c78e;
+    margin: 0 5%;
+}
+.navbar-brand:hover {
+    color: #d4b289;
+}
+.nav-link, .foot-list {
+    color: #b7bb96;
+    font-size: 16px;
+    margin: 0 15px;
+    font-family: 'Abril Fatface', cursive;
+}
+.nav-link:hover, .foot-list:hover {
+    color: #e1e2d2;
+}
+.navbar-toggler {
+    color: #e1e2d2;
+}
+/* movie type selector */
+.movie-selector {
+    font-family: 'PT Serif Caption', serif;
+    padding: 3px;
+    color: rgb(183, 159, 99);
+    background-color: rgba(0, 0, 0, 0.729);
+    text-align: left;
+    list-style: none;
+    margin: 27% 0 0% 0%;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+}
+.movie-selector li {
+    line-height: 2.2;
+    margin-right: 3%;
+}
+/* all movie content */
+    /* row as a whole */
+    /* image and card */
+    .card {
+        margin: 10px 10px;
+        padding: 0%;
+        background-color: rgba(36, 46, 46, 0.156);
+    }
+    .card-text {
+        color: #fff;
+        padding: 0;
+        text-align: left;
+        list-style: none;
+    }
+    img {
+        width: 100%;
+    }
+    /* Action */
+    .action-content-color {
+        background-color: rgba(29, 0, 0, 0.871);
+    }
+    .action-row {
+        background-image: url("download\ (1).png");
+        margin: 5% 0;
+    }
+    .action-header {
+        color: rgb(255, 0, 0);
+        font-family: 'Bebas Neue', sans-serif;
+    }
+    /* Animation */
+    .animation-row {
+        background-image: url(https://www.maacindia.com/blog/wp-content/uploads/2020/04/n-animated-movies.jpg);
+        margin: 5% 0;
+    }
+    .animation-content-color {
+        background-color: rgba(0, 4, 30, 0.763);
+    }
+    .animation-header {
+        color: rgb(230, 216, 253);
+    }
+    /* Adventure */
+    .adventure-row {
+        margin: 5% 0;
+        background-image: url(https://nothattumblrboy.neocities.org/adventure.jpg);
+    }
+    .adventure-content-color {
+        background-color: #001807d9;
+    }
+    .adventure-header {
+        font-family: 'Nanum Myeongjo', serif;
+    }
+    .animation-content-color h5 {
+        color: rgb(161, 161, 217);
+    }
+    /* Romance */
+    .romance-row {
+        margin: 5% 0;
+        background-image: url(https://www.wonderslist.com/wp-content/uploads/2017/07/The-Vow-2012.jpeg);
+    }
+    .romance-content-color {
+        background-color: rgba(17, 0, 14, 0.879);
+    }
+    .romance-header {
+        font-family: 'Great Vibes', cursive;
+        color: pink;
+    }
+    .romance-row h5 {
+        color: pink;
+    }
+    /* Horror */
+    .horror-row {
+        margin: 5% 0;
+        background-image: url(https://images-geeknative-com.exactdn.com/wp-content/uploads/2020/10/09231518/horror-movie-villians.jpg?strip=all&lossy=1&ssl=1);
+    }
+    .horror-content-color {
+        background-color: rgba(0, 0, 0, 0.76);
+    }
+    .horror-heading {
+        font-family: 'Rubik Wet Paint', cursive;
+        color: red;
+    }
+    .horror-row h5 {
+        color: rgb(188, 8, 8);
+    }
+/* footer */
+.footer {
+    background-color: rgba(36, 21, 21, 0);
+    color: #fcfcfc;
+    background-color: black !important;
+}
+.foot-link {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+.foot-list {
+    display: inline-block;
+    padding: 0%;
+}
+.list-header {
+    margin-right: 13%;
+}
+.foot-img {
+    border-radius: 30%;
+    width: 70%;
+    padding: 15%;
+    transform: rotate(320deg);
+}
+.foot-p {
+    color: rgb(133, 125, 125) !important;
+}
+.foot-right {
+    position: relative;
+    /* left: 35%; */
+    top: 10%;
+} 
+
+@media (max-width: 767px) {
+    .foot-img {
+        width: 20%;
+        padding: 2% 0;
+        transform: rotate(340deg);
+    }
+    .foot-p 
+}
